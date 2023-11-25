@@ -1,0 +1,183 @@
+:root{
+    --color-normal: rgb(170, 38, 187);
+    --color-fighting: rgb(145, 33, 56);
+    --color-poison: rgb(178, 81, 216);
+    --color-ground: rgb(107, 75, 75);
+    --color-rock: rgb(162, 162, 172);
+    --color-bug: rgb(68, 187, 38);
+    --color-ghost: rgb(83, 81, 216);
+    --color-steel: rgb(122, 131, 131);
+    --color-fire: rgb(201, 104, 40);
+    --color-water: rgb(38, 157, 187);
+    --color-grass: rgb(109, 167, 131);
+    --color-electric: rgb(78, 88, 184);
+    --color-ice: rgb(94, 208, 216);
+    --color-dragon: rgb(132, 197, 197);
+    --color-dark: rgb(47, 47, 53);
+    --color-fairy: rgb(184, 132, 197);
+    --color-: rgb(180, 180, 131);
+}
+.pokeCard-container{
+    width: 16em;
+    max-width: 18em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 0.8em;
+    transition: transform 150ms ease;
+    background: linear-gradient(var(--color), white);
+    border: 0.6em solid var(--color);
+    color: var(--color);
+}
+.pokeCard-container:hover{
+    transform: scale(1.02);
+    filter: brightness(1.02)
+    drop-shadow(5px 5px 3px #0008);
+}
+.pokeCard__header{
+    position: relative;
+    margin-top: 1em;
+}
+.pokeCard__header-img{
+    max-width: 9em;
+    margin: 0 auto -3em auto;
+}
+.pokeCard__header__color{
+    width: 100%;
+    height: 100%;
+}
+.pokeCard__info{
+    background-color: white;
+    width: 100%;
+    text-align: center;
+    border-radius: 0 0 0.8em 0.8em;
+}
+.pokeCard__info__title{
+    font-size: 1.5rem;
+    margin-top: 2em;
+    text-transform: capitalize;
+}
+.pokeCard__info__type{
+    display: flex;
+    justify-content: center;
+    gap: 1em;
+    font-weight: 300;
+}
+.pokeCard__info__type-li{
+    font-size: 1.1rem;
+    font-weight: 400;
+    color: black;
+    text-transform: capitalize;
+}
+.pokeCard__info__p{
+    color: #0008;
+    font-size: 0.8em;
+}
+.pokeCard__info__hr{
+    border: none;
+    border-top: 1px solid rgba(0, 0, 0, 0.2);
+}
+.pokeCard__info__stats{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1em;
+}
+.pokeCard__info__stats-li{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.pokeCard__info__stats__name{
+    color: #0008;
+    margin-bottom: 0.2em;
+    font-size: 0.8rem;
+    text-transform: capitalize;
+}
+.pokeCard__info__stats__stat{
+    font-size: 1.1rem;
+    margin-bottom: 0.5em;
+    color: black;
+}
+
+
+.normal-gradient{
+background: linear-gradient(var(--color-normal), white);
+border: 0.6em solid var(--color-normal);
+color: var(--color-normal);
+}
+.fighting-gradient{
+background: linear-gradient(var(--color-fighting), white);
+border: 0.6em solid var(--color-fighting);
+color: var(--color-fighting);
+}
+.poison-gradient{
+background: linear-gradient(var(--color-poison), white);
+border: 0.6em solid var(--color-poison);
+color: var(--color-poison);
+}
+.ground-gradient{
+background: linear-gradient(var(--color-ground), white);
+border: 0.6em solid var(--color-ground);
+color: var(--color-ground);
+}
+.rock-gradient{
+background: linear-gradient(var(--color-rock), white);
+border: 0.6em solid var(--color-rock);
+color: var(--color-rock);
+}
+.bug-gradient{
+background: linear-gradient(var(--color-bug), white);
+border: 0.6em solid var(--color-bug);
+color: var(--color-bug);
+}
+.ghost-gradient{
+background: linear-gradient(var(--color-ghost), white);
+border: 0.6em solid var(--color-ghost);
+color: var(--color-ghost);
+}
+.steel-gradient{
+background: linear-gradient(var(--color-steel), white);
+border: 0.6em solid var(--color-steel);
+color: var(--color-steel);
+}
+.fire-gradient{
+background: linear-gradient(var(--color-fire), white);
+border: 0.6em solid var(--color-fire);
+color: var(--color-fire);
+}
+.water-gradient{
+background: linear-gradient(var(--color-water), white);
+border: 0.6em solid var(--color-water);
+color: var(--color-water);
+}
+.grass-gradient{
+background: linear-gradient(var(--color-grass), white);
+border: 0.6em solid var(--color-grass);
+color: var(--color-grass);
+}
+.electric-gradient{
+background: linear-gradient(var(--color-electric), white);
+border: 0.6em solid var(--color-electric);
+color: var(--color-electric);
+}
+.ice-gradient{
+background: linear-gradient(var(--color-ice), white);
+border: 0.6em solid var(--color-ice);
+color: var(--color-ice);
+}
+.dragon-gradient{
+background: linear-gradient(var(--color-dragon), white);
+border: 0.6em solid var(--color-dragon);
+color: var(--color-dragon);
+}
+.dark-gradient{
+background: linear-gradient(var(--color-dark), white);
+border: 0.6em solid var(--color-dark);
+color: var(--color-dark);
+}
+.fairy-gradient{
+background: linear-gradient(var(--color-fairy), white);
+border: 0.6em solid var(--color-fairy);
+color: var(--color-fairy);
+}

@@ -1,0 +1,31 @@
+.pokedexPage-container{
+    background-color: rgb(245, 245, 245);
+    padding-bottom: 3em;
+
+}
+.header-container{
+    height: 10vh;
+    position: relative;
+}
+.header__img-pokedex{
+    max-width: 14em;
+    position: absolute;
+    top: 1em;
+    left: 2em;
+}
+.header__img-ball{
+    max-width: 4em;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 2em;
+    margin: auto;
+}
+.header__up{
+    height: 50%;
+    background-color: rgb(220, 26, 26);
+}
+.header__down{
+    height: 50%;
+    background-color: rgb(30, 30, 30);
+}

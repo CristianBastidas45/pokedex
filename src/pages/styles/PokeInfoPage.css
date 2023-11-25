@@ -1,0 +1,153 @@
+body{
+    background-color: rgb(245, 245, 245);
+}
+.pokeInfo-container{
+    width: 70vw;
+    margin: 0 auto;
+    text-align: center;
+    color: rgb(90, 90, 90);
+}
+.pokeInfo__return{
+    font-size: 2rem;
+    left: 0;
+    display: flex;
+    justify-content: start;
+    margin-top: 1em;
+}
+.pokeInfo__return__icon{
+    cursor: pointer;
+}
+.pokeInfo__header{
+    position: relative;
+    background: linear-gradient(var(--color),white);
+    margin-top: 3em;
+    width: 100%;
+    height: 5em;
+    border-radius: 0.2em;
+}
+.pokeInfo__img{
+    max-width: 9em;
+    position: absolute;
+    top: -5em;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    margin: auto;
+}
+.pokeInfo__card{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.pokeInfo__card__id{
+    margin-top: 1em;
+    margin-bottom: 1em;
+    width: 3em;
+    background-color: rgb(245, 245, 245);
+}
+.pokeInfo__card__name{
+    display: flex;
+    width: 80%;
+    align-items: center;
+    margin-bottom: 1em;
+}
+.pokeInfo__card__name>hr{
+    border: none;
+    border-bottom: 1px solid gray;
+    width: 30%;
+    height: 0.1em;
+}
+.pokeInfo__card__name-name{
+    font-size: 2rem;
+    font-weight: 500;
+}
+.pokeInfo__card__data{
+    display: flex;
+    gap: 1em;
+    margin-bottom: 1em;
+}
+.pokeInfo__card__data__p{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5em;
+    font-size: 0.8rem;
+}
+.pokeInfo__card__data__p>span{
+    font-size: 1rem;
+    font-weight: 600;
+}
+.pokeInfo__card__ts-as{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1em;
+    margin-bottom: 2em;
+}
+.pokeInfo__card__ts-as-p{
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+.pokeInfo__card__t-a{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1em;
+}
+.pokeInfo__card__t-a>li{
+    border: 1px solid gray;
+    border-radius: 0.2em;
+    width: 8em;
+    height: 2.2em;
+    padding: 0.5em 0;
+    color: black;
+}
+.pokeInfo__card__stats{
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+.pokeInfo__card__stats__title{
+    font-weight: 500;
+}
+.pokeInfo__card__stat{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    font-weight: 400;
+}
+.pokeInfo__card__graf{
+    width: 100%;
+    display: flex;
+    margin-bottom: 1em;
+}
+.pokeInfo__card__graf-1{
+    width: 50%;
+    height: 1em;
+    background: linear-gradient(to left,red,orange)
+}
+.pokeInfo__card__graf-2{
+    width: 50%;
+    height: 1em;
+    background-color: gray;
+}
+.pokeInfo__moves-container{
+    width: 70vw;
+    margin: 2em auto;
+    color: rgb(90, 90, 90);
+    background-color: white;
+    padding: 1em;
+}
+.pokeInfo__moves{
+    margin-top: 1em;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 0.5em;
+}
+.pokeInfo__move{
+    background-color: rgba(200, 200, 200, 0.25);
+    padding: 0.3em;
+    border-radius: 0.8em;
+}

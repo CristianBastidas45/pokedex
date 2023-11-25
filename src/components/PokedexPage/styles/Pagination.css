@@ -1,0 +1,22 @@
+.pagination-container{
+    max-width: 60%;
+    margin: 2em auto 0 auto;    
+}
+.pagination__list{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.4em;
+}
+.pagination__list__btn{
+    width: 3em;
+    aspect-ratio: 1;
+    border: none;
+    border-radius: 0.8em;
+}
+.pagination__list__btn:hover{
+    filter: brightness(1.2)
+}
+.selected{  
+    background-color: rgb(220, 26, 26);
+}

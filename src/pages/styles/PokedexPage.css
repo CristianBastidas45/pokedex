@@ -1,0 +1,48 @@
+
+.main-container{
+    width: 90vw;
+    margin: 0 auto;
+}
+.main__p{
+    margin-top: 2em;
+    margin-bottom: 1em;
+    font-size: 1.1rem;
+}
+.main__name{
+    color: rgb(220, 26, 26);
+    font-weight: 600;
+}
+.main__filter{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1em;
+}
+.main__filter__input{
+    font-size: 1.2rem;
+    border: #0005;
+    border-radius: 0.8em 0 0 0.8em;
+    padding: 0.4em 0.2em;
+    max-width: 9em;
+}
+.main__filter__btn{
+    background-color: rgb(220, 26, 26);
+    color: white;
+    font-size: 1.2rem;
+    padding: 0.4em 0.6em;
+    border: none;
+    border-radius: 0 0.8em 0.8em 0;
+}
+.main__filter__ppp{
+    border: none;
+    min-width: 3em;
+    font-size: 1.1rem;
+    border-radius: .8em;
+    padding: 0.1em 0.4em;
+}
+.main__PokeCards{
+    margin-top: 3em;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2em 1em;
+    justify-content: center;
+}
